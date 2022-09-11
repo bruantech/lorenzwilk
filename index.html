@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/tailwind.css" />
+    <title>Lorenz Wilk</title>
+  </head>
+  <body class="font-body">
+    <header
+      id="header"
+      style="background-image: url(images/5.jpg)"
+      class="flex min-h-screen justify-center bg-white bg-cover bg-fixed bg-center"
+    >
+      <div class="mx-auto h-auto min-w-full">
+        <div
+          class="flex flex-col items-center justify-between space-x-4 lg:space-x-10"
+        >
+          <nav
+            id="nav"
+            class="fixed top-0 z-10 flex w-full flex-col justify-center"
+          >
+            <h2
+              id="logo"
+              class="py-3 text-center font-logo text-4xl font-semibold capitalize text-white transition duration-500"
+            >
+              LORENZ WILK
+            </h2>
+            <div
+              class="flex w-full justify-center space-x-8 p-4 text-sm font-medium shadow-md"
+            >
+              <a class="text-gray-100" href="#header">Home</a>
+              <a class="text-gray-100" href="#about">About</a>
+              <a class="text-gray-100" href="#portfolio">Portfolio</a>
+              <a class="text-gray-100" href="#contact">Contact</a>
+            </div>
+          </nav>
+        </div>
+        <div class="h-full bg-gray-900/10 py-20">
+          <div class="mx-auto max-w-7xl">
+            <aside class="overflow-hidden">
+              <div class="p-8 md:p-12 lg:px-16 lg:py-20">
+                <div class="mx-auto mt-80 text-center sm:text-left">
+                  <!-- <h2
+                    class="my-2 font-heading text-3xl font-bold text-gray-50 md:text-7xl"
+                  >
+                    Hello there,
+                  </h2>
+                  <h3
+                    class="my-2 text-2xl font-semibold text-gray-100 md:text-4xl"
+                  >
+                    I am Lorenz
+                  </h3> -->
+                  <div class="lg:max-w-3xl">
+                    <div
+                      class="mt-10 grid grid-cols-2 space-y-4 md:grid-cols-3 md:space-y-0 lg:grid-cols-4 lg:space-x-8"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="flex min-h-screen w-full flex-col md:flex-row">
+      <div class="max-h-screen min-h-full w-full md:w-1/2">
+        <img
+          src="images/IMG-20220831-WA0016.jpg"
+          class="h-full min-h-full w-full object-cover"
+          alt=""
+        />
+      </div>
+      <div
+        class="flex max-h-screen min-h-full w-full flex-col items-center justify-center bg-white py-20 md:w-1/2 md:py-0"
+        id="about"
+      >
+        <img
+          src="images/about.jpg"
+          class="relative h-full min-h-full w-full object-top"
+          alt=""
+        />
+        <div
+          class="absolute min-h-full w-full cursor-pointer bg-black py-20 px-5 transition duration-500 hover:opacity-100 md:w-1/2 md:bg-black/80 md:px-20 md:opacity-0"
+        >
+          <div class="mx-auto w-fit">
+            <h1 class="px-4 text-3xl font-bold text-white">About</h1>
+            <div>
+              <div
+                class="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 md:max-w-3xl"
+              >
+                <div class="flex items-center px-4 text-white">
+                  <span class="font-semibold"> Height : </span>
+                  <span class="ml-2"> 190 cm / 6.2 ft</span>
+                </div>
+                <div class="flex items-center px-4 text-white">
+                  <span class="font-semibold"> Weight : </span>
+                  <span class="ml-2"> 85 kg / 187 lbs</span>
+                </div>
+                <div class="flex items-center px-4 text-white">
+                  <span class="font-semibold"> Suit : </span>
+                  <span class="ml-2"> 42</span>
+                </div>
+                <div class="flex items-center px-4 text-white">
+                  <span class="font-semibold"> Waist : </span>
+                  <span class="ml-2"> 32</span>
+                </div>
+                <div class="flex items-center px-4 text-white">
+                  <span class="font-semibold"> Eye Color : </span>
+                  <span class="ml-2"> Blue</span>
+                </div>
+                <div class="flex items-center px-4 text-white">
+                  <span class="font-semibold"> Hair : </span>
+                  <span class="ml-2"> Brown </span>
+                </div>
+                <div class="flex items-center px-4 text-white">
+                  <span class="font-semibold"> Shoes : </span>
+                  <span class="ml-2"> 44/45 EU</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="m-auto" id="portfolio">
+      <div class="relative m-auto">
+        <div class="fade mySlides hidden min-h-[500px]">
+          <img
+            src="images/4.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+
+        <div class="fade mySlides hidden min-h-[500px]">
+          <img
+            src="images/5.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+
+        <div class="fade mySlides hidden min-h-[500px]">
+          <img
+            src="images/6.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+        <div class="fade mySlides hidden min-h-[500px]">
+          <img
+            src="images/2.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+        <div class="fade mySlides hidden min-h-[500px]">
+          <img
+            src="images/1.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+        <div class="fade mySlides hidden min-h-[500px]">
+          <img
+            src="images/3.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+
+        <a
+          class="absolute bottom-10 left-10 mx-3 -mt-6 w-auto cursor-pointer bg-gray-900/40 p-2 font-bold text-white"
+          onclick="plusSlides(-1)"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <a
+          class="absolute bottom-10 left-24 mx-3 -mt-6 w-auto cursor-pointer bg-gray-900/40 p-2 font-bold text-white"
+          onclick="plusSlides(1)"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="relative max-h-screen w-full overflow-hidden">
+      <img
+        src="images/IMG-20220831-WA0017.jpg"
+        class="max-h-screen w-full object-cover"
+        alt=""
+      />
+      <div
+        class="absolute bottom-5 left-10 flex flex-col space-y-4 rounded-md bg-white/70 p-10 md:left-20 md:bottom-[35%]"
+      >
+        <h2 class="text-3xl font-bold" id="contact">Contact</h2>
+        <p class="flex space-x-5">
+          <a href="#">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/739/739244.png"
+              width="40"
+              height="30"
+              alt=""
+            />
+          </a>
+          <a href="mailto:nga@lorenzwilk.com">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
+              width="40"
+              height="40"
+              alt=""
+            />
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <footer class="bg-transparent py-2">
+      <div class="flex justify-center">
+        <span>© All rights reserved</span>
+      </div>
+    </footer>
+    <script>
+      window.onscroll = function () {
+        var pos = window.pageYOffset;
+        if (pos > 100) {
+          const nav = document.getElementById("nav");
+          nav.classList.remove("bg-gray-100/10");
+          nav.classList.add("bg-black/50");
+          document.getElementById("logo").style.display = "none";
+          // popup.style.opacity = "1";
+          // popup.style.animationName = "show";
+          // popup.style.animationDuration = "2s";
+          //popup.style.opacity = "0";
+          // popup.style.opacity = "1";
+        }
+        if (pos < 100) {
+          nav.classList.add("bg-gray-100/10");
+          document.getElementById("logo").style.display = "block";
+          nav.classList.remove("bg-black/50");
+        }
+      };
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.querySelectorAll(".mySlides");
+        let dots = document.querySelectorAll(".dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(
+            "bg-gray-800",
+            "bg-gray-400"
+          );
+        }
+        slides[slideIndex - 1].style.display = "block";
+        // dots[slideIndex - 1].className = dots[slideIndex - 1].className.replace(
+        //   "bg-gray-400",
+        //   "bg-gray-800"
+        // );
+      }
+    </script>
+  </body>
+</html>
